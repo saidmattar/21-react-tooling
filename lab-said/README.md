@@ -1,4 +1,5 @@
-#### Project description
+#### Project description  
+The goal of this project is to practice working with React and working with webpack to bundle the things we'll need. We're also practicing using sass.
 #### Steps to remember
 1. in terminal- npm run watch
 2. http://localhost:8080/ - right click on this in the terminal and choose open
