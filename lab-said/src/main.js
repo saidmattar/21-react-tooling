@@ -10,7 +10,7 @@ class App extends React.Component {
     this.state = {
       cows:[],
       current:'',
-      content: cowsay.say({text: 'click the button!'}),
+      content: cowsay.say({text: 'click the button or select a cow!'}),
     };
     this.handleClick = this.handleClick.bind(this);
   }
