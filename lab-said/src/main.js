@@ -43,7 +43,11 @@ class App extends React.Component {
         }
       )}</select>
         <button onClick={this.handleClick}> click here! </button>
-         <pre> {this.state.content} </pre>
+        <pre>
+          <code>
+            {this.state.content}
+          </code>
+        </pre>
       </div>
     );
   }
