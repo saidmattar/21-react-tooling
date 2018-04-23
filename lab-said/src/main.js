@@ -36,8 +36,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <h1> Generate Cowsay Lorem </h1>
-
+        <Navebar />
         <select onChange={this.handleClick}>
         {this.state.cows.map((cow, i)=> {
           return <option key={i} value={cow}>{cow}</option>;
@@ -46,6 +45,16 @@ class App extends React.Component {
         <button onClick={this.handleClick}> click here! </button>
          <pre> {this.state.content} </pre>
       </div>
+    );
+  }
+}
+
+class Navebar extends React.Component {
+  render() {
+    return (
+      <header calassName="app-header">
+        <h1> Generate Cool Cowsay Lorem </h1>
+      </header>
     );
   }
 }
